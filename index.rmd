@@ -1,0 +1,127 @@
+---
+title: "What We Know"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    logo: images/logo.jpg
+    output_dir: docs
+    
+---
+
+<style>
+/* Edited CSS */
+
+/* Set the font for the dasboard */
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #4A1D70;
+}
+
+/* Change the background colour of the sidebar to white */
+
+#sidebar.section.sidebar {
+  background-color: #ffffff;
+}
+
+/* Change the background colour of the navbar to white*/
+
+.navbar.navbar-inverse {
+  background-color: #ffffff;
+  border-color: #4A1D70;
+  color: #4A1D70;
+}
+
+/* This changes the horizontal line under the inactive tabs - I only wanted 
+colour but had to use the whole code because it would not change */
+
+.nav-tabs-custom>.nav-tabs {
+    margin: 0;
+    border-bottom: 0.1rem solid #4A1D70;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: inherit;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+/* Change the highlight colours around the tabs to match the C&C UK branding */
+
+.nav-tabs-custom > .nav-tabs > li.active,
+.nav-tabs-custom > .nav-tabs > li.active > a {
+    border-top-color: #4A1D70;
+    border-right-color: #4A1D70;
+    border-left-color: #4A1D70;
+    color: #000000;
+}
+
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+
+# Install and load packages
+#install.packages("waffle", dependencies = TRUE) # for making waffle plots
+#install.packages("showtext", dependencies = TRUE) # easier to use various types of fonts: https://github.com/yixuan/showtext
+
+# Automatically use showtext to render text for future devices
+#showtext::showtext_auto()
+```
+
+
+```{r country, include=FALSE}
+
+
+```
+
+Sidebar {.sidebar}
+-------------------------------------
+### Info Hub
+
+
+Row {.tabset}
+-------------------------------------
+
+### Overview
+
+#### Evidence & Insight: Key facts and resources
+
+Country & Region: shows an overview of prevalence, diagnosis, surgery, care and lockdown. Country and region figures are included where available.
+
+### Country & Region
+
+A map with filters
+
+### Demographics
+
+Text and images of demographic data
+
+### Prevalence & Incidence
+
+What is the difference between the two?
+Latest figures from the epidemiology report
+
+### Treatment & Care
+
+Perhaps graphic of timeline showing time to diagnosis
+
+### Cost & Hospital Attendance
+
+Stuff here
+
+### Individual Health
+
+### Impact on Life
+
+### Family & Friends
+
+### Life in Lockdown
+
+### Crohn's & Colitis UK
