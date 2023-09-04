@@ -81,15 +81,13 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE)
 
 ```
 
-Sidebar {.sidebar}
--------------------------------------
-### Info Hub
-
-
 Row {.tabset}
 -------------------------------------
 
 ### Overview
+This is a summary of what we know about inflammatory bowel disease in the UK, based on the most up-do-date, quality evidence generated from research.
+
+The Knowledge & Information team have produced a range of materials explaining more about the conditions and relevant topics, which are available on the main website here: [All information about Crohn's and Colitis]( https://crohnsandcolitis.org.uk/info-support/information-about-crohns-and-colitis/all-information-about-crohns-and-colitis?parent=4107&page=1&tags=&category=&sort=).
 
 #### Evidence & Insight: Key facts and resources
 
