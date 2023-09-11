@@ -1,0 +1,52 @@
+/* Edited CSS */
+
+/* Set the font for the dasboard */
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #4A1D70;
+}
+
+/* Change the background colour of the sidebar to white */
+
+#sidebar.section.sidebar {
+  background-color: #ffffff;
+}
+
+/* Change the background colour of the navbar to white*/
+
+.navbar.navbar-inverse {
+  background-color: #ffffff;
+  border-color: #4A1D70;
+  color: #4A1D70;
+}
+
+/* This changes the horizontal line under the inactive tabs - I only wanted 
+colour but had to use the whole code because it would not change */
+
+.nav-tabs-custom>.nav-tabs {
+    margin: 0;
+    border-bottom: 0.1rem solid #4A1D70;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: inherit;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+/* Change the highlight colours around the tabs to match the C&C UK branding */
+
+.nav-tabs-custom > .nav-tabs > li.active,
+.nav-tabs-custom > .nav-tabs > li.active > a {
+    border-top-color: #4A1D70;
+    border-right-color: #4A1D70;
+    border-left-color: #4A1D70;
+    color: #000000;
+}
